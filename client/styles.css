@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#chat {
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+#message {
+    padding: 10px;
+}
+
+#send {
+    width: max-content;
+    padding: 10px;
+}
